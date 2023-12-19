@@ -1,5 +1,4 @@
-import amarone from '@assets/amarone.png'
-
+import vina from "public/assets/vina.png";
 export const Products = [
   {
     imgUrl: amarone,
