@@ -16,7 +16,9 @@ const Hero = () => {
         <p className="text-white text-center text-[20px] md:text-2xl font-medium leading-[133.333%] mt-8">Browse our collection to find that delectable taste you desire</p>
 
         <Link href="/products">
-          <button type="button" className="text-white sm:text-2xl xl:text-[32px] font-semibold leading-[112.5%] mt-12 xl:mt-24 bg-primary rounded-xl px-4 sm:px-8 py-4 lg:px-12 lg:py-6 ">
+          <button
+            type="button"
+            className="text-white text-lg sm:text-2xl xl:text-[32px] font-semibold leading-[112.5%] mt-16 xl:mt-24 bg-primary rounded-xl px-5 sm:px-8 py-5 lg:px-12 lg:py-6  hover:border border-white  ">
             Explore Products
           </button>
         </Link>

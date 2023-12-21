@@ -33,13 +33,13 @@ const Navbar = () => {
 
       <div className="flex xl:gap-4 gap-4 max-lg:hidden">
         <Link href="/login">
-          <button type="button" className="text-primary bg-white text-xl font-semibold leading-[116.667%] rounded-lg py-2 px-5 hover:bg-transparent hover:text-white">
+          <button type="button" className="text-primary bg-white text-xl font-semibold leading-[116.667%] rounded-lg py-2 px-5 active:bg-transparent active:border active:text-white">
             Login
           </button>
         </Link>
 
         <Link href="/signUp">
-          <button type="button" className="text-primary bg-white text-xl font-semibold leading-[116.667%] rounded-lg py-2 px-4">
+          <button type="button" className="text-primary bg-white text-xl font-semibold leading-[116.667%] rounded-lg py-2 px-4 active:bg-transparent active:border active:text-white">
             Sign Up
           </button>
         </Link>
