@@ -8,7 +8,7 @@ const ProductPage = () => {
       <h1 className="max-xs:text-2xl text-3xl font-semibold leading-normal text-primary mb-6">Product</h1>
       <div className="flex gap-12 lg:gap-8 flex-wrap justify-center ">
         {Products.map((item) => (
-          <div className="h-full flex flex-col">
+          <div className="h-full flex flex-col" key={item.id}>
             <Image
               src={item.imgUrl}
               alt={item.name}
