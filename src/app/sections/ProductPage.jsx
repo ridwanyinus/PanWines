@@ -13,10 +13,10 @@ const ProductPage = () => {
             <Image
               src={item.imgUrl}
               alt={item.name}
-              className="w-auto h-auto  md:w-[40vw] lg:w-[25vw] xl:w-[370px] widescreen:w-[400px] sm:w-[38vw] small:w-[70vw] max-sm:h-[55vh] max-small:w-[80vw]  cursor-pointer relative"
+              className="w-auto h-auto  md:w-[40vw] lg:w-[25vw] xl:w-[370px] widescreen:w-[400px] sm:w-[38vw] small:w-[70vw] small:h-[55vh] max-small:h-[30vh] max-small:w-[80vw]  cursor-pointer relative"
             />
             <p className="text-primary leading-[116.667%]  text-base lg:text-xl xl:text-2xl font-medium mt-4">{item.name}</p>
-            <p className="mt-1 sm:mt-2 xl text-primary leading-[116.667%] text-xs lg:text-base xl:text-[20px] font-medium ">${item.price}</p>
+            <p className="mt-1 sm:mt-2 xl:mt-3 text-primary leading-[116.667%] text-xs lg:text-base xl:text-[20px] font-medium ">${item.price}</p>
             <Link href="/products/shoppingCart/cart">
               <button
                 type="button"
