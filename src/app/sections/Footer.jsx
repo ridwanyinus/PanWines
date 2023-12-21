@@ -13,29 +13,29 @@ const Footer = () => {
         <div className="flex max-md:justify-between gap-6 sm:gap-12 lg:gap-40 max-md:pt-12 flex-wrap max-sm:flex-col">
           <div className="flex flex-col">
             <h2 className="text-primary font-medium text-xl leading-[140%] pb-2">Homepage</h2>
-            <Link href="/" className="text-primary opacity-[0.8] text-base font-normal leading-[125%] hover:opacity-100 hover:underline pb-1  max-small:text-[14px]">
+            <Link href="/" className="text-primary opacity-[0.8] text-base font-normal leading-[125%] hover:opacity-100 hover:underline pb-1  max-small:text-[14px] w-fit">
               Home
             </Link>
-            <Link href="/" className="text-primary opacity-[0.8] max-small:text-[14px] text-base font-normal leading-[125%] hover:opacity-100 hover:underline py-1">
+            <Link href="/" className="text-primary opacity-[0.8] max-small:text-[14px] text-base font-normal leading-[125%] hover:opacity-100 hover:underline py-1  w-fit">
               Authentication
             </Link>
-            <Link href="/product" className="text-primary opacity-[0.8] text-base font-normal leading-[125%] hover:opacity-100 hover:underline py-1 max-small:text-[14px]">
+            <Link href="/products" className="text-primary opacity-[0.8] text-base font-normal leading-[125%] hover:opacity-100 hover:underline py-1 max-small:text-[14px] w-fit">
               Product
             </Link>
-            <Link href="/ShoppingCart" className="text-primary opacity-[0.8] text-base font-normal leading-[125%] hover:opacity-100 hover:underline py-1 max-small:text-[14px]">
+            <Link href="/products/shoppingCart" className="text-primary opacity-[0.8] text-base font-normal leading-[125%] hover:opacity-100 hover:underline py-1 max-small:text-[14px] w-fit">
               Shopping
             </Link>
           </div>
 
           <div className="flex flex-col">
             <h2 className="text-primary font-medium text-xl leading-[140%] pb-2">Contact Us</h2>
-            <a href="/" className="text-primary opacity-[0.8] text-base font-normal leading-[125%] hover:opacity-100 pb-1 max-small:text-[14px]">
+            <a href="/" className="text-primary opacity-[0.8] text-base font-normal leading-[125%] hover:opacity-100 pb-1 max-small:text-[14px] w-fit">
               Panwine@gmail.com
             </a>
-            <a href="/" className="text-primary opacity-[0.8] text-base font-normal leading-[125%] hover:opacity-100 py-1 max-small:text-[14px]">
+            <a href="/" className="text-primary opacity-[0.8] text-base font-normal leading-[125%] hover:opacity-100 py-1 max-small:text-[14px] w-fit">
               www.PanWine.com
             </a>
-            <p className="text-primary opacity-[0.8] text-base font-normal leading-[125%] hover:opacity-100 py-1 max-small:text-[14px]">+(234) 816 631 9747</p>
+            <p className="text-primary opacity-[0.8] text-base font-normal leading-[125%] hover:opacity-100 py-1 max-small:text-[14px] w-fit">+(234) 816 631 9747</p>
           </div>
           <div className="flex sm:justify-end items-end md:hidden pt-2">
             <Link href="/products">

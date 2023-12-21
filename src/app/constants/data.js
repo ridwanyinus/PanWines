@@ -98,3 +98,41 @@ export const Products = [
     id: "12",
   },
 ];
+export const ProductList = [
+  {
+    imgUrl: amarone,
+    name: "Amarone",
+    price: "12,400",
+    id: "7",
+  },
+  {
+    imgUrl: vina,
+    name: "Vina Ardanza",
+    price: "12,500",
+    id: "8",
+  },
+  {
+    imgUrl: nebla,
+    name: "Nebla",
+    price: "14,400",
+    id: "9",
+  },
+  {
+    imgUrl: pinot,
+    name: "Pinot Noir: Aymura",
+    price: "12,900",
+    id: "4",
+  },
+  {
+    imgUrl: sauvignon,
+    name: "Sauvignon Blanc",
+    price: "10,600",
+    id: "5",
+  },
+  {
+    imgUrl: veuve,
+    name: "Veuve Cliquot",
+    price: "11,000",
+    id: "6",
+  },
+];
