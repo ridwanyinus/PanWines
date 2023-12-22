@@ -13,6 +13,7 @@ const ProductPage = () => {
             <Image
               src={item.imgUrl}
               alt={item.name}
+              priority={true}
               className="w-auto h-auto  md:w-[40vw] lg:w-[25vw] xl:w-[370px] widescreen:w-[400px] sm:w-[38vw] small:w-[70vw] xl:h-[60vh] small:h-[40vh] max-small:h-[30vh] max-small:w-[75vw]  cursor-pointer relative"
             />
             <p className="text-primary leading-[116.667%]  text-base lg:text-xl xl:text-2xl font-medium lg:mt-3 mt-1">{item.name}</p>

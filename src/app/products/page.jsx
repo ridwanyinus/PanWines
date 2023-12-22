@@ -5,8 +5,8 @@ import { ProductList } from "@app/constants/data";
 import Link from "next/link";
 const page = () => {
   return (
-    <section className="md:px-8 py-6 sm:py-10">
-      <div className="flex justify-between items-start flex-wrap small:px-4 max-small:px-2">
+    <section className="md:px-8 py-8 sm:py-10 px-3 ">
+      <div className="flex justify-between items-start flex-wrap small:px-4">
         <div>
           <p className="text-xl sm:text-2xl lg:text-3xl font-bold leading-[150%] text-primary mb-6">Results Found</p>
         </div>
@@ -27,6 +27,7 @@ const page = () => {
             <Image
               src={item.imgUrl}
               alt={item.name}
+              priority={true}
               className="w-auto h-auto  md:w-[40vw] lg:w-[25vw] xl:w-[370px] widescreen:w-[400px] sm:w-[38vw] small:w-[70vw] xl:h-[60vh] small:h-[40vh] max-small:h-[30vh] max-small:w-[75vw]  cursor-pointer relative"
             />
             <p className="text-primary leading-[116.667%]  text-base lg:text-xl xl:text-2xl font-medium lg:mt-3 mt-1">{item.name}</p>

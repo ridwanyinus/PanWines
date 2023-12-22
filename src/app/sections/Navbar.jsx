@@ -10,7 +10,7 @@ const Navbar = () => {
   const [toggleMenu, settoggleMenu] = useState(false);
 
   return (
-    <nav className="bg-primary px-6 py-5 lg:px-12 lg:py-6 flex lg:items-center  justify-between ">
+    <nav className="bg-primary px-6 py-5 lg:px-12 lg:py-6 flex lg:items-center  justify-between">
       <Link href="/" className="text-white font-bold  text-2xl lg:text-3xl  lg:leading-[40px] ">
         PanWines
       </Link>
