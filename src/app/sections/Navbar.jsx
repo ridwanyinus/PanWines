@@ -43,15 +43,14 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <div className="flex flex-col lg:hidden gap-6 h-[100%]  ">
-        <div className=" w-full h-full flex items-end justify-end ">
+      <div className="flex flex-col lg:hidden gap-6 h-[100%]">
+        <div className=" w-full h-full flex items-end justify-end">
           {toggleMenu ? (
-            <div className="border border-slate-50 border-opacity-50 rounded px-1  ">
-              {" "}
+            <div className="border border-slate-50 border-opacity-50 rounded px-1">
               <IoClose size={28} color="#fff" onClick={() => settoggleMenu(false)} />
             </div>
           ) : (
-            <div className="border border-slate-50 border-opacity-50 rounded p-1 px-[6px] ">
+            <div className="border border-slate-50 border-opacity-50 rounded p-1 px-[6px]">
               <FiAlignRight size={27} color="#fff" onClick={() => settoggleMenu(true)} />
             </div>
           )}
