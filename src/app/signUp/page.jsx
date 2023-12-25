@@ -42,7 +42,7 @@ const page = () => {
             name="password"
             id="pass"
             placeholder="Password"
-            className="text-primary placeholder:text-primary placeholder:font-medium lg:placeholder:text-[20px] xs:placeholder:leading-[116.667%] max-small:placeholder:text-[13px] text-base lg:text-lg font-medium  max-sm:text-[14px]"
+            className="text-primary placeholder:text-primary placeholder:font-medium lg:placeholder:text-[20px] xs:placeholder:leading-[116.667%] max-small:placeholder:text-[13px] text-base lg:text-lg font-medium  max-sm:text-[14px] w-fit"
           />
           <Image src={password} alt="password-invisible max-sm:hidden" className="w-[10px] small:w-[12px] xs:hidden sm:flex" />
         </div>
@@ -50,7 +50,7 @@ const page = () => {
         <p className="text-end text-primary font-medium leading-normal text-xs md:text-[13px] lg:text-xl max-small:w-[80vw]">Forgot Password?</p>
 
         <div className="flex justify-center w-full max-small:mt-8  sm:mt-4 mt-6 mb-1 xl:mb-8 widescreen:mb-16">
-          <Link href="/signIn">
+          <Link href="/createAcct">
             <button
               type="button"
               className="text-white max-small:text-[13px] md:text-lg xl:text-2xl font-semibold leading-[116.667%]  bg-primary rounded small:rounded-xl  w-[30vw] md:w-[30vw] lg:w-[40vw] py-3 lg:py-2 xl:mt-4 text-center  hover:shadow-lg shadow-primary max-small:px-1 max-small:w-[50vw]">
@@ -62,7 +62,7 @@ const page = () => {
         <p className="text-center text-black font-semibold leading-normal max-small:text-xs xl:text-xl">OR</p>
 
         <div className="flex justify-center items-center w-full max-small:mt-1">
-          <Link href="/signIn">
+          <Link href="/signup">
             <button
               type="button"
               className="text-primary max-small:text-[13px] gmail md:text-lg xl:text-2xl font-normal border-primary border leading-[116.667%]  bg-white  sm:rounded-xl max-small:px-1  w-[40vw] py-3 lg:py-2 xl:mt-4 small:mt-1  text-center  hover:shadow-lg shadow-primary flex justify-center items-center max-small:w-[60vw]">
