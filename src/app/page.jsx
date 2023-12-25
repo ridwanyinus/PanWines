@@ -6,7 +6,7 @@ import Search from "./sections/Search";
 import ProductPage from "./sections/ProductPage";
 const Home = () => {
   return (
-    <main>
+    <main className="">
       <Navbar />
       <Hero />
       <Search />
