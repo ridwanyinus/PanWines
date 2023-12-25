@@ -107,3 +107,10 @@
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 1.21%, rgba(0, 0, 0, 0.4) 48.49%);
   height: 100vh;
 }
+
+@media screen and (max-width: 375px) {
+  .gmail {
+    font-size: 10px;
+    line-height: none;
+  }
+}

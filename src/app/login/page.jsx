@@ -1,18 +1,17 @@
-import React from "react";
 import Image from "next/image";
 import Login from "public/assets/Login.png";
 import Link from "next/link";
 
 const page = () => {
   return (
-    <section className="flex bg-white h-fit w-full">
+    <section className="flex bg-white h-fit w-full overflow-hidden">
       <div className="flex sm:flex-1 justify-start relative items-start h-full w-full">
-        <Image src={Login} quality={100} placeholder="blur" alt="wine" className="sm:object-fill   h-screen  w-[50vw]" />
+        <Image src={Login} quality={100} placeholder="blur" alt="wine" className="sm:object-fill   h-screen max-small:h-[90vh]  w-[50vw]" />
         <p className="text-white absolute top-11 left-4 md:left-12 text-2xl sm:text-3xl lg:text-4xl xl:text-5xl leading-[125%] font-bold">PanWines</p>
       </div>
 
       <div className="flex-1 max-small:pt-24 pt-6 px-4 md:px-6 lg:px-12 ">
-        <h2 className="text-primary font-bold leading-normal max-md:text-center small:text-xl sm:text-2xl md:text-3xl mb-8 xs:mb-12 md:mb-16 lg:mb-28">Sign in to PanWines</h2>
+        <h2 className="text-primary font-bold leading-normal max-md:text-center text-[14px] small:text-xl sm:text-2xl md:text-3xl mb-8 xs:mb-12 md:mb-16 lg:mb-28">Sign in to PanWines</h2>
         <input
           type="email"
           name="email"
