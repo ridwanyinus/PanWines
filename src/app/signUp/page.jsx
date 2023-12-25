@@ -3,12 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 import Login from "public/assets/Login.png";
 import password from "public/assets/Password.svg";
-
+ 
 const page = () => {
   return (
     <section className="flex bg-white  w-full overflow-hidden max-small:flex-col max-small:mb-6 ">
       <div className="flex sm:flex-1 justify-start relative items-start h-full w-full">
-        <Image src={Login} quality={100} placeholder="blur" alt="wine" className="sm:object-fill   max-h-full max-md:h-screen  max-small:w-[100vw] max-small:h-[70vh]" />
+        <Image src={Login} quality={100} placeholder="blur" alt="wine" className="sm:object-fill   max-h-full max-md:h-screen  max-small:w-[100vw] max-small:h-[60vh]" />
         <p className="text-white absolute top-11 left-4 md:left-12 text-2xl sm:text-3xl lg:text-4xl xl:text-5xl leading-[125%] font-bold">PanWines</p>
       </div>
 

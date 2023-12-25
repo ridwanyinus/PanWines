@@ -31,7 +31,7 @@ const page = () => {
           <Link href="/signIn">
             <button
               type="button"
-              className="text-white md:text-xl xl:text-2xl font-semibold leading-[116.667%]  bg-primary rounded-xl w-[40vw] py-3 lg:py-2 mt-4  text-center  hover:shadow-lg shadow-primary">
+              className="text-white md:text-xl xl:text-2xl font-semibold leading-[116.667%]  bg-primary rounded-xl w-[40vw] py-3 lg:py-2 xl:py-3 mt-4  text-center  hover:shadow-lg shadow-primary">
               Sign In
             </button>
           </Link>
