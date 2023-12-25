@@ -58,14 +58,14 @@ const Navbar = () => {
 
         {toggleMenu && (
           <div className="flex flex-col justify-end bg-primary rounded  w-full gap-2 items-end scale-up-ver-top">
-            <Link href="/products" className="text-[14px] small:text-lg  text-white opacity-95  font-normal leading-[116.667%] hover:border-b border-white hover:opacity-100">
+            <Link href="/" className="text-[14px] small:text-lg  text-white opacity-95  font-normal leading-[116.667%] hover:border-b border-white hover:opacity-100">
               Home
             </Link>
             <Link href="/products" className="text-[14px] small:text-lg  text-white opacity-95  font-normal leading-[116.667%] hover:border-b border-white hover:opacity-100">
               Product
             </Link>
             <Link
-              href="/shoppingCart"
+              href="/products/shoppingCart"
               className="text-[14px] small:text-lg  text-white opacity-95  font-normal leading-[116.667%] hover:border-b border-white hover:opacity-100 flex justify-center items-center">
               Shopping Cart
               <span className="pl-[2px]">

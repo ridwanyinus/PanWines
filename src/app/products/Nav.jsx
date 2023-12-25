@@ -50,14 +50,14 @@ const Nav = () => {
 
         {toggleMenu && (
           <div className="flex flex-col justify-end bg-primary rounded  w-full gap-2 items-end scale-up-ver-top">
-            <Link href="/products" className="text-[14px] small:text-lg  text-white opacity-95  font-normal leading-[116.667%] hover:border-b border-white hover:opacity-100">
+            <Link href="/" className="text-[14px] small:text-lg  text-white opacity-95  font-normal leading-[116.667%] hover:border-b border-white hover:opacity-100">
               Home
             </Link>
             <Link href="/products" className="text-[14px] small:text-lg  text-white opacity-95  font-normal leading-[116.667%] hover:border-b border-white hover:opacity-100">
               Product
             </Link>
             <Link
-              href="/shoppingCart"
+              href="/products/shoppingCart"
               className="text-[14px] small:text-lg  text-white opacity-95  font-normal leading-[116.667%] hover:border-b border-white hover:opacity-100 flex justify-center items-center">
               Shopping Cart
               <span className="pl-[2px]">
@@ -66,7 +66,7 @@ const Nav = () => {
             </Link>
 
             <div className="flex flex-col max-sm:mt-1 gap-3 justify-end items-end">
-              <Link href="/login">
+              <Link href="/logOut">
                 <button
                   type="button"
                   className="text-primary bg-white text-base small:text-lg font-medium leading-[116.667%] rounded-[6px] small:rounded-lg py-1 px-4 active:bg-transparent active:border active:text-white">
